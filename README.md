@@ -260,9 +260,9 @@ make demo-local
 
 ## Test Coverage
 ```text
-Lines (contracts/src):     100.00% (500/500)
+Lines (contracts/src):     100.00% (503/503)
 Branches (contracts/src):  100.00% (97/97)
-Functions (contracts/src): 100.00% (74/74)
+Functions (contracts/src): 100.00% (75/75)
 Executed tests:            84 contracts + 14 reactive + 2 invariants
 ```
 
