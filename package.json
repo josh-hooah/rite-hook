@@ -1,0 +1,14 @@
+{
+  "name": "rite-hook-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.6.1",
+  "scripts": {
+    "build": "pnpm --filter @rite/shared build && pnpm --filter @rite/frontend build && pnpm --filter @rite/reactive build",
+    "lint": "pnpm --filter @rite/shared lint && pnpm --filter @rite/frontend build",
+    "bootstrap": "./scripts/bootstrap.sh"
+  },
+  "devDependencies": {
+    "typescript": "5.8.2"
+  }
+}

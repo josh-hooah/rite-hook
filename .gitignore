@@ -1,0 +1,34 @@
+# Compiler files
+cache/
+out/
+**/cache/
+**/out/
+
+# Ignores development (and goerli) broadcast logs
+!/broadcast
+/broadcast/*/31337/
+/broadcast/*/5/
+/broadcast/**/dry-run/
+
+# Dotenv file
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Frontend artifacts
+frontend/dist/
+shared/dist/
+
+# Exclude large local/vendor context directories from git tracking
+context/
+frontend/
+lib/
+
+# Coverage
+coverage/
+lcov.info
